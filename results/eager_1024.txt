@@ -1,0 +1,20 @@
+
+--- LlamaDecoderLayer Performance Profile ---
+Total Average Time: 4.2457 ms
+---------------------------------------------
+mlp.down_proj                  | Avg Time:   0.6194 ms | Percentage: 14.59%
+mlp.gate_proj                  | Avg Time:   0.5793 ms | Percentage: 13.64%
+mlp.up_proj                    | Avg Time:   0.5745 ms | Percentage: 13.53%
+attention.softmax              | Avg Time:   0.3381 ms | Percentage:  7.96%
+attention.rope                 | Avg Time:   0.3270 ms | Percentage:  7.70%
+attention.q_proj               | Avg Time:   0.2620 ms | Percentage:  6.17%
+attention.o_proj               | Avg Time:   0.2586 ms | Percentage:  6.09%
+attention.k_proj               | Avg Time:   0.2519 ms | Percentage:  5.93%
+attention.v_proj               | Avg Time:   0.2508 ms | Percentage:  5.91%
+post_attention_layernorm       | Avg Time:   0.2270 ms | Percentage:  5.35%
+input_layernorm                | Avg Time:   0.2033 ms | Percentage:  4.79%
+attention.q_k_matmul           | Avg Time:   0.1346 ms | Percentage:  3.17%
+attention.weights_v_matmul     | Avg Time:   0.1017 ms | Percentage:  2.40%
+mlp.act_fn                     | Avg Time:   0.0682 ms | Percentage:  1.61%
+mlp.element_wise_mul           | Avg Time:   0.0494 ms | Percentage:  1.16%
+---------------------------------------------
