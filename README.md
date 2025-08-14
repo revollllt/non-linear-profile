@@ -1,6 +1,6 @@
-# LLM Decoder Layer Profiling
+# LLM Decoder Layer Non-linear Profiling
 
-A performance profiling tool for LLM decoder layers with different attention implementations.
+A performance profile for non-linear operations in LLM decoder layers with different attention implementations.
 
 ## Project Structure (only support llama decoder layer now)
 
@@ -9,7 +9,7 @@ non-linear-profile/
 ├── main.py                 # Main profiling script
 ├── scripts/profile.sh      # Batch profiling runner
 ├── requirements.txt        # Python dependencies
-├── config/llama2-7b.json  # Model configuration
+├── config/llama2-7b.json   # Model configuration
 ├── models/                 # LLaMA model implementation
 ├── triton_kernel/          # Custom Triton kernels
 ├── results/                # Profiling output files
